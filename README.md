@@ -24,7 +24,7 @@ We conducted a rigorous comparison between our proposed hybrid model and a stand
 | **HAD-Net (Ours)** | ✅ | **0.9435** | **+4.41%** |
 
 ### ROC Curve Comparison
-The green curve (Hybrid) demonstrates higher sensitivity at low false-positive rates compared to the baseline (red).
+The bleu curve (Hybrid) demonstrates higher sensitivity at low false-positive rates compared to the baseline (red).
 ![ROC Comparison](results/ablation_study_roc.png)
 
 ### Latent Space Visualization (t-SNE)
