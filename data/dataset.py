@@ -12,14 +12,14 @@ class HybridAnomalyDataset(Dataset):
         return len(self.df)
     
     def __getitem__(self, idx):
-        img_path = self.df.iloc[idx]['processed_path']
-        image = cv2.imread(img_path)
+        row = self.df.iloc[idx]
+        image = cv2.imread(row['processed_path'])
         image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
         
         if self.transform:
             image = self.transform(image)
             
         handcrafted = torch.tensor(self.features[idx], dtype=torch.float32)
-        label = torch.tensor(self.df.iloc[idx]['anomaly_label'], dtype=torch.float32)
+        label = torch.tensor(row['anomaly_label'], dtype=torch.float32)
         
         return image, handcrafted, label
