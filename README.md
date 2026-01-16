@@ -6,7 +6,7 @@ This repository contains the official implementation of **HAD-Net** (Hybrid Anom
 - **Unsupervised Learning:** The model is trained exclusively on "healthy" samples to learn a robust representation of normality, eliminating the need for expensive pathological annotations.
 - **Hybrid Feature Fusion:** Fuses high-level semantic features (ResNet18) with interpretable low-level texture biomarkers (Haralick and Local Binary Patterns).
 - **Superior Performance:** Achieved an **AUROC of 0.9435** on the APTOS 2019 dataset, outperforming the deep-only baseline by **+4.41%**.
-- 
+  
 ## 📊 Dataset: APTOS 2019
 We evaluated our framework on the **APTOS 2019 Blindness Detection** dataset (provided by the Asia Pacific Tele-Ophthalmology Society).
 
