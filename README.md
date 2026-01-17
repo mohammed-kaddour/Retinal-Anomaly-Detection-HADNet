@@ -43,6 +43,8 @@ Standard Deep Learning models often prioritize macroscopic structures while over
 2. **Train Model:** Run `python main.py` to train the HAD-Net model.
 3. **Compare Results:** Open `notebooks/Ablation_Study_Comparison.ipynb` to visualize the ROC curves and performance gain.
    
-## 🎓 Citation
+## 🎓 Citation & Paper Status
+This work has been accepted for publication at the **1st International Conference on Data Analytics and Intelligent Systems (DAIS)**, Springer CCIS, 2026.
+
 If you find this work useful, please cite our paper:
 > **S. M. Kaddour**, et al. "Unsupervised Retinal Anomaly Detection using Hybrid Texture-Semantic Features." To appear in Proc. 1st International Conference on Data Analytics and Intelligent Systems (DAIS), **Springer CCIS**, 2026.
